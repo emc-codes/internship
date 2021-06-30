@@ -38,7 +38,7 @@ class signin_check {
     }
 }
 
-// instantiate class
+// instantiate class 
 new signin_check();
 
 ?>
