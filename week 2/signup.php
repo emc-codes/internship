@@ -32,7 +32,7 @@
     </head>
     <body>
 
-    <form action="" method="POST">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
         <fieldset>
             <legend>Sign Up</legend>
             <div>
