@@ -102,18 +102,18 @@ class SignUp {
                             }
 
                         } else {
-                            echo "Passwords don't match!";
+                            echo "<h2>Passwords don't match!</h2>";
                         }
 
                     } else {
-                        echo "Please adhere to naxlength values";
+                        echo "<h2>Please adhere to maxlength values</h2>";
                     }
 
                 } else {
-                    echo "Please adhere to minlength values";
+                    echo "<h2>Please adhere to minlength values</h2>";
                 }
             } else {
-                echo "Field(s) cannot be empty";
+                echo "<h2>Field(s) cannot be empty</h2>";
             }
         }
         
