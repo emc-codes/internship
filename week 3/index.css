@@ -1,0 +1,81 @@
+/* stylesheet */
+
+h5 {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 2px; 
+	padding: 10px;
+	background: #36db51;
+	border: 1px solid #a9dd2fd2;
+}
+
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #a9dd2fd2;
+}
+.add_btn {
+	height: 39px;
+	background: #36db51;
+	color: 	#a9dd2fd2;
+	border: 2px solid #a9dd2fd2;
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #a9dd2fd2;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a, a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+h4 {
+	background: #a52a2a;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+	padding: 2px 8px;
+	border-radius: 2px;
+}
